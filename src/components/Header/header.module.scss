@@ -1,1 +1,15 @@
-// TODO
+.container {
+  height: 7rem;
+}
+
+.content {
+  height: 7rem;
+
+  display: flex;
+  align-items: center;
+
+  a {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+}

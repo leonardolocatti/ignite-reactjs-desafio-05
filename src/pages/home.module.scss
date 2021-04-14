@@ -1,1 +1,52 @@
-// TODO
+.posts {
+  a {
+    display: block;
+    
+    strong {
+      font-size: 1.5rem;
+      transition: color 0.2s;
+    }
+
+    p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+
+    time, span {
+      display: inline-flex;
+      align-items: center;
+      
+      svg {
+        margin-right: 0.5rem;
+        line-height: 0;
+      }
+    }
+    
+    time {
+      margin-right: 1rem;
+    }
+
+    &:hover {
+      strong {
+        color: var(--pink-500);
+      }
+    }
+
+    & + a {
+      margin-top: 1.5rem;
+    }
+  }
+
+  button {
+    margin-top: 2rem;
+    border: 0;
+    background: inherit;
+    color: var(--pink-500);
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
